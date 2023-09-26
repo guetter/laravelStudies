@@ -13,8 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//GitHub test
-
 Route::get('/', [\App\Http\Controllers\PrincipalController::class, 'principal'])->name('site.index');
 
 Route::get('/sobrenos', [\App\Http\Controllers\SobreNosController::class, 'sobreNos'])->name('site.sobrenos');
